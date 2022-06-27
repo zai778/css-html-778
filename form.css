@@ -146,8 +146,9 @@ input[type="submit"]:hover {
 }
 .footer {
   position: absolute;
-  top: 100%;
+  bottom: -8rem;
   display: flex;
+  margin-top: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -155,6 +156,12 @@ input[type="submit"]:hover {
   height: 60px;
   background-color: darkred;
   line-height: 1.8rem;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+  }
 }
 .footer__list {
   display: flex;
