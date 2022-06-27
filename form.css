@@ -17,7 +17,7 @@ article {
 }
 article h2 {
   padding-bottom: 0.8rem;
-  font-size: 2rem;
+  font-size: 3rem;
   color: darkred;
 }
 @media (max-width: 600px) {
