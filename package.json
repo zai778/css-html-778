@@ -1,0 +1,23 @@
+{
+  "name": "Restaurant-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass -w scss/style.scss css/style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Final-MZ/Restaurant-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Final-MZ/Restaurant-1/issues"
+  },
+  "homepage": "https://github.com/Final-MZ/Restaurant-1#readme",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}

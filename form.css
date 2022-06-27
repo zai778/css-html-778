@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./css/reser2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+article {
+  margin-top: 15.5rem;
+}
+article h2 {
+  font-size: 2rem;
+  color: darkred;
+}
+@media (max-width: 600px) {
+  article h2 {
+    font-size: large;
+  }
+}
+p {
+  font-weight: bold;
+  color: white;
+}
+nav {
+  width: 100%;
+  height: 85px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.32);
+}
+.nav-links {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(254, 252, 252);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links:hover {
+  color: rgba(165, 42, 42, 0.609);
+}
+nav a img {
+  border-radius: 50%;
+  margin-top: -20px;
+}
+.nav-rightSection {
+  float: right;
+  padding-top: 0.8rem;
+}
+.nav-links__button {
+  border: 1px solid white;
+}
+.nav-links__button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+@media screen and (max-width: 850px) {
+  nav {
+    padding-left: 0;
+  }
+  .nav-links {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 130px;
+  }
+  .nav-rightSection {
+    float: none;
+    margin-top: -20px;
+  }
+  .nav-links__buttom {
+    margin-top: 20px;
+  }
+  .nav-links__logo {
+    margin-top: -10px;
+    padding-left: 25px;
+  }
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+}
+
+.holder {
+  border-radius: 5px;
+  background-color: #f2f2f286;
+  padding: 20px;
+}
+
+.hamada {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.kanni {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.lucy:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .hamada,
+  .kanni,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: darkred;
+  line-height: 1.8rem;
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 0.5rem;
+}
+.footer__list__icon a {
+  color: white;
+}
+.footer__list__icon a:hover {
+  color: blue;
+}
+.footer__paragraph {
+  color: white;
+  font-weight: 900;
+}

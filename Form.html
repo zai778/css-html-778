@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/ede1537b49.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Resevierung</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="nav-links nav-links__logo"
+        ><img src="./css/logo-image.png" width="80px" height="80px" alt=""
+      /></a>
+      <div class="nav-rightSection">
+        <a href="index.html" class="nav-links">Startseite</a>
+        <a href="foodlist.html" class="nav-links">Speisekarte</a>
+        <a href="about.html" class="nav-links">Über uns</a>
+        <a href="#" class="nav-links">Kontakt</a>
+        <a class="nav-links nav-links__button" href="Form.html" class="links"
+          >Resevierung</a
+        >
+      </div>
+    </nav>
+    <article>
+      <h2>Resevierung</h2>
+      <p>Nehmen Sie Ihre Resavierung spontan.</p>
+
+      <div class="holder">
+        <form action="https://formspree.io/f/xbjwqbjq" method="post">
+          <div class="lucy">
+            <div class="hamada">
+              <label for="fname">Vorname</label>
+            </div>
+            <div class="kanni">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your first name.."
+              />
+            </div>
+          </div>
+          <div class="lucy">
+            <div class="hamada">
+              <label for="lname"> Nachname</label>
+            </div>
+            <div class="kanni">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+            </div>
+          </div>
+          <div class="lucy">
+            <div class="hamada">
+              <label for="date">Datum</label>
+            </div>
+            <div class="kanni">
+              <select id="date" name="date">
+                <option value="Januar">Januar</option>
+                <option value="Februar">Februar</option>
+                <option value="März">März</option>
+                <option value="April">April</option>
+                <option value="Mai">Mai</option>
+                <option value="Juni">Juni</option>
+                <option value="Juli">Juli</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="Oktober">Oktober</option>
+                <option value="November">November</option>
+                <option value="Dezember">Dezember</option>
+              </select>
+            </div>
+          </div>
+          <div class="lucy">
+            <div class="hamada">
+              <label for="subject">Nachricht</label>
+            </div>
+            <div class="kanni">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="lucy">
+            <input type="submit" value="Absenden" />
+          </div>
+        </form>
+      </div>
+    </article>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__list__icon">
+          <a target="_blank" href="https://www.facebook.com">
+            <i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </li>
+        <li class="footer__list__icon">
+          <a target="_blank" href="https://www.twitter.com"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li class="footer__list__icon">
+          <a target="_blank" href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="footer__paragraph">
+        <p>© Zaid Abdullatif</p>
+      </div>
+    </footer>
+  </body>
+</html>
